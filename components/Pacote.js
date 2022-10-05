@@ -1,15 +1,19 @@
 
+export default function Pacote(props) {
 
-export default function Pacote() {
+    const pacotes = props.pacotes;
+
+    //console.log(props.pacotes);
     return (
-        <div className="border px-2 py-4 rounded-md text-center">
-            <strong className="text-lg">Beginner</strong>
-            <p className="text-sm mt-4">Yellow Spot</p>
-            <p className="text-sm mt-2">Online Listing</p>
-            <p className="text-sm mt-2">Print Directory [Bold] - name, Line of
-                Info, Physical Address] Y.P and W.P
-            </p>
-            <button className="bg-[#f2f000] mt-2 px-8 py-1 rounded font-bold text-sm">Saiba mais</button>
-        </div>
+        pacotes && pacotes.map(pacote => (
+            <div key={pacote.id} className="border cursor-pointer hover:shadow-xl duration-500 ease-out px-2 py-4 rounded-md text-center">
+                <p className="text-lg font-bold">{pacote.title}</p>
+                {pacote.names.map(name => {
+                    console.log(name.split(',').join("\n"));
+                   return <span key={name} className="block text-sm mt-2">{name.split(',').join("\n")}</span>
+                })}
+                <button className="bg-[#FBED04] mt-2 px-8 py-1 rounded font-bold text-sm">Saiba mais</button>
+            </div>
+        ))
     );
 }
