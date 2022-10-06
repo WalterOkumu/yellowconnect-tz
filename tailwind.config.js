@@ -11,6 +11,14 @@ module.exports = {
       fontFamily: {
         "Roboto": ["Roboto", ...defaultTheme.fontFamily.sans],
       },
+      keyframes: {
+        blink: {
+          'to': { visibility: 'hidden'}
+        }
+      },
+      animation: {
+        blink: 'blink 1s steps(5, start) infinite'
+      }
     },
   },
   plugins: [],

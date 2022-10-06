@@ -6,9 +6,9 @@ export default function Header() {
     const logPA = '/logo-pa.png';
 
     return(
-        <header className="flex flex-row justify-between">
-            <Image src={yconnect} width={100} height={100} alt='Yellow Connect' className="object-contain"/>
-            <Image src={logPA} width={40} height={40} alt='Páginas Amarelas' className="object-contain"/>
+        <header className="flex flex-row justify-between  md:px-6">
+            <Image src={yconnect} width={150} height={150} alt='Yellow Connect' className="object-contain"/>
+            <Image src={logPA} width={50} height={50} alt='Páginas Amarelas' className="object-contain"/>
         </header>
     )
 };

@@ -6,7 +6,7 @@ export default function TestimonialItem() {
     const profile = '/profile.jpg';
 
     return(
-        <div className="flex flex-row justify-center items-center gap-4">
+        <div className="flex flex-row gap-4">
             <div>
                 <Image src={profile} width={150} height={150} alt="Profile" className="rounded border-[#FBED04] border-4"/>
             </div>
