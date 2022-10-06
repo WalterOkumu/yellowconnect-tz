@@ -1,5 +1,5 @@
 
-export default function Pacote(props) {
+/*export default function Pacote(props) {
 
     const pacotes = props.pacotes;
 
@@ -15,4 +15,4 @@ export default function Pacote(props) {
             </div>
         ))
     );
-}
+}*/
