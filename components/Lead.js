@@ -31,17 +31,17 @@ export default function Lead() {
                         <div className="ml-form-formContent">
                             <div className="ml-form-fieldRow">
                             <div className="ml-field-group ml-field-name">
-                                <input aria-label="name" type="text" className="form-control" data-inputmask="" name="fields[name]" placeholder="Name" autocomplete="name" />
+                                <input aria-label="name" type="text" className="form-control" data-inputmask="" name="fields[name]" placeholder="Name" autoComplete="name" />
                             </div>
                             </div>
                             <div className="ml-form-fieldRow">
                             <div className="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                                <input aria-label="email" aria-required="true" type="email" className="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email" />
+                                <input aria-label="email" aria-required="true" type="email" className="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autoComplete="email" />
                             </div>
                             </div>
                             <div className="ml-form-fieldRow ml-last-item">
                             <div className="ml-field-group ml-field-company">
-                                <input aria-label="company" type="text" className="form-control" data-inputmask="" name="fields[company]" placeholder="Company" autocomplete="" />
+                                <input aria-label="company" type="text" className="form-control" data-inputmask="" name="fields[company]" placeholder="Company" autoComplete="" />
                             </div>
                             </div>
                         </div>
