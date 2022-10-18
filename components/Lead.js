@@ -52,17 +52,16 @@ export default function Lead() {
                         </div>
                         <input type="hidden" name="anticsrf" value="true" />
                         </form>
-                        </div>
-                        <div className="ml-form-successBody row-success" style={{display:'none'}}>
-                                <div className="ml-form-successContent">
-                                <h4>Thank you!</h4>
-                                <p>We will send your proposal as soon as possible.</p>
-                            </div>
+                    </div>
+                    <div className="ml-form-successBody row-success" style={{display:'none'}}>
+                        <div className="ml-form-successContent">
+                        <h4>Thank you!</h4>
+                        <p>We will send your proposal as soon as possible.</p>
                         </div>
                     </div>
+                    </div>
                 </div>
-                <img src="https://track.mailerlite.com/webforms/o/5786909/u5v1y5?v1665074181" width="1" height="1" style={{maxWidth:'1px',maxHeight:'1px',visibility:'hidden',padding:0,margin:0,display:'block'}} alt="." border="0"></img>
-            </div>
+                </div>
         </section>
     );
 }
