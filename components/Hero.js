@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
 
-    const heroImage = '/hero-img.png';
+    const heroImage = '/black-friday.png';
 
     return(
         <div className="mx-auto max-w-6xl">
