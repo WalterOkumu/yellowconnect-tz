@@ -4,12 +4,12 @@ export default function Hero() {
 
     const heroImage = '/black-friday.png';
 
-    return(
+    return (
         <div className="mx-auto max-w-6xl">
             <div className="flex md:flex-row flex-col-reverse gap-8">
                 <div className="md:w-1/2 w-full md:mt-24 pb-8 ml-6">
                     <h1 className="text-5xl font-bold md:w-96 md:text-left text-center">Build strong digital presence!</h1>
-                    <h2 className="text-4xl italic font-light pt-2 md:w-72 md:text-left text-center">Get <span className="font-bold animate-blink">20%</span> off the first 3 months</h2>
+                    <h2 className="text-4xl italic font-light pt-2 md:w-80 md:text-left text-center">Enjoy <span className="font-bold animate-blink">30% OFF</span> until the end of the year!</h2>
                     <div className="pt-8 md:w-96">
                         <p className="leading-relaxed md:text-left text-center">
                             For those who want to claim a share 
