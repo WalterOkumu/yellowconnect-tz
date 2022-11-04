@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="flex md:flex-row flex-col-reverse gap-8">
                 <div className="md:w-1/2 w-full md:mt-24 pb-8 ml-6">
                     <h1 className="text-5xl font-bold md:w-96 md:text-left text-center">Build strong digital presence!</h1>
-                    <h2 className="text-4xl italic font-light pt-2 md:w-80 md:text-left text-center">Enjoy <span className="font-bold animate-blink">30% OFF</span> until the end of the year!</h2>
+                    <h2 className="text-4xl italic font-light pt-2 md:w-80 md:text-left text-center">Enjoy <span className="font-bold">30% OFF</span> until the end of the year!</h2>
                     <div className="pt-8 md:w-96">
                         <p className="leading-relaxed md:text-left text-center">
                             For those who want to claim a share 
@@ -24,7 +24,7 @@ export default function Hero() {
                     </div>
                 </div>
               <div className="md:w-1/2 w-full">
-                <Image src={heroImage} width={840} height={840} alt="" className="object-contain"/>
+                <Image src={heroImage} width={1090} height={1000} alt="" className="object-contain"/>
               </div>
              </div>
         </div>
