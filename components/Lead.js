@@ -55,8 +55,8 @@ export default function Lead() {
                     </div>
                     <div className="ml-form-successBody row-success" style={{display:'none'}}>
                         <div className="ml-form-successContent">
-                        <h4>Thank you!</h4>
-                        <p>We will send your proposal as soon as possible.</p>
+                        <h4>Thank You!</h4>
+                        <p>Enviaremos sua proposta o mais rápido possível.</p>
                         </div>
                     </div>
                     </div>

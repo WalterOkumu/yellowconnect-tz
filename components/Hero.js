@@ -11,16 +11,15 @@ export default function Hero() {
                     <h1 className="text-5xl font-bold md:w-96 md:text-left text-center text-[#FBED04]">Build strong digital presence</h1>
                     <h2 className="text-2xl italic font-light pt-2 md:w-96 md:text-left text-center">
                         <span className="font-bold">Promote your business in print and digital! </span>
-                    With the Yellow Connect package</h2>
+                            With the Yellow Connect package.</h2>
                     <div className="pt-8 md:w-96">
                         <p className="leading-relaxed md:text-left text-center">
-                            For those who want to claim a share 
-                            in this ever-changing market, YELLOW CONNECT is an important part 
-                            of strategy to increase your visibility.
+                            For those who want to claim a share in this ever-changing market, 
+                            YELLOW CONNECT is an important part of strategy to increase your visibility.
                         </p><br/>
                         <p className="leading-relaxed md:text-left text-center">
-                            With a good digital plan, your business can be on several online 
-                            communication channels at the same time, facilitating your 
+                            With a good digital plan, your business can be on several 
+                            online communication channels at the same time, facilitating your 
                             communication with your audience and achieving greater reach.
                         </p>
                     </div>
