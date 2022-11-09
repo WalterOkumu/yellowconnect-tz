@@ -8,10 +8,10 @@ export default function Hero() {
         <div className="mx-auto max-w-6xl">
             <div className="flex md:flex-row flex-col-reverse gap-8 text-[#f8f8ff]">
                 <div className="md:w-1/2 w-full md:mt-16 pb-8 md:ml-6">
-                    <h1 className="text-5xl font-bold md:w-96 md:text-left text-center">Build strong digital presence</h1>
-                    <h2 className="text-4xl italic font-light pt-2 md:w-96 md:text-left text-center">
-                        <span className="font-bold text-[#FBED04]">Promote your business in print and digital!</span></h2>
-                    <h3 className="text-2xl mt-2">With the Yellow Connect package</h3>
+                    <h1 className="text-5xl font-bold md:w-96 md:text-left text-center text-[#FBED04]">Build strong digital presence</h1>
+                    <h2 className="text-2xl italic font-light pt-2 md:w-96 md:text-left text-center">
+                        <span className="font-bold">Promote your business in print and digital! </span>
+                    With the Yellow Connect package</h2>
                     <div className="pt-8 md:w-96">
                         <p className="leading-relaxed md:text-left text-center">
                             For those who want to claim a share 
