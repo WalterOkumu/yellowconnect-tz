@@ -1,3 +1,4 @@
+import About from "./About";
 import Pacote from "./Pacote";
 
 
@@ -23,10 +24,9 @@ export default function PacoteList() {
 
 
     return(
-        <section className="pt-40 mx-auto">
+        <section className="pt-24 mx-auto">
              <h3 className="text-3xl font-bold text-center pb-10"> Vifurushi vyetu </h3>
              <div className="flex flex-wrap md:flex-nowrap md:flex-row mx-auto justify-center gap-16 md:w-3/4 w-1/2">
-                
                 <div className="md:w-[14rem] bg-[#1E1E1E] text-[#FFFFFF] w-[12rem] border cursor-pointer hover:shadow-3xl duration-500 ease-out px-3 py-4 rounded-md text-center">
                     <p className="text-lg font-bold text-[#FBED04]">Beginner</p>
                     <div className="">
