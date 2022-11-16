@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Lead from '../components/Lead'
 import PacoteList from '../components/PacoteList'
+import About from '../components/About'
 import Testimonials from '../components/Testimonial'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
           <Header />
           <Hero />
         </div>
+        <About />
         <PacoteList />
         {/*<Lead />
         <Testimonials />*/}
