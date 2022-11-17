@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
           <>
             <Head>
-              <title>Yellow Connect Tanzania</title>
+              <title>Yellow Connect - Tanzania</title>
             </Head>
             <Component {...pageProps} />
           </>
