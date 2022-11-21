@@ -5,6 +5,7 @@ import Lead from '../components/Lead'
 import PacoteList from '../components/PacoteList'
 import About from '../components/About'
 import Testimonials from '../components/Testimonial'
+import ContactForm from '../components/ContactForm'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
         <About />
         <PacoteList />
+        <ContactForm />
         {/*<Lead />
         <Testimonials />*/}
     </div>

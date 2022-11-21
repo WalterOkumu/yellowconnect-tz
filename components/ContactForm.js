@@ -1,12 +1,9 @@
-import styles from '../styles/Home.module.css';
-
-export default function Lead() {
+export default function() {
     return(
-        <section id='sectionInfo' className="mt-30 mx-auto md:w-2/4 px- mb-20 ">
-            <h1 className="text-4xl mb-8 font-bold text-left md:pl-10 pl-5 text-[#FDEA03]">
-                Tangaza biashara yako kwa uchapishaji na kidijitali! Kwa kifurushi cha Yellow Connect.
-            </h1>
-            <h2 className='md:pl-10 p-5'> Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo </h2>
+        <section id='sectionInfo' className="mt-20 mx-auto md:w-2/4 px-5 text-center">
+            <h3 className="">
+                Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo
+            </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
                     <label htmlFor="nome" className="font-bold text-sm">Name: </label>
@@ -64,5 +61,5 @@ export default function Lead() {
                 </div>
                 </div>
         </section>
-    );
+    )
 }
