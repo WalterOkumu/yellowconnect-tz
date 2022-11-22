@@ -1,4 +1,4 @@
-export default function() {
+export default function ContactForm() {
     return(
         <section id='sectionInfo' className="mt-32 mx-auto md:w-2/4 px-5 text-center">
             <h3 className="">
