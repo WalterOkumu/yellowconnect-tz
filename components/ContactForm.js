@@ -1,6 +1,6 @@
 export default function() {
     return(
-        <section id='sectionInfo' className="mt-20 mx-auto md:w-2/4 px-5 text-center">
+        <section id='sectionInfo' className="mt-32 mx-auto md:w-2/4 px-5 text-center">
             <h3 className="">
                 Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo
             </h3>
