@@ -8,7 +8,7 @@ export default function Header() {
     return(
         <header className="flex flex-row justify-between md:px-16">
             <Image src={yconnect} width={150} height={150} alt='Yellow Connect' className="object-contain"/>
-            <Image src={logPA} width={50} height={50} alt='Páginas Amarelas' className="object-contain"/>
+            <Image src={logPA} width={80} height={80} alt='Páginas Amarelas' className="object-contain"/>
         </header>
     )
 };
