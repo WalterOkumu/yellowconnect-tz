@@ -7,11 +7,9 @@ export default function Hero() {
 
     return (
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse md:gap-8 text-[#f8f8ff]">
+            <div className="flex md:flex-row flex-col-reverse gap-8 text-[#f8f8ff]">
+                <Lead />                
 
-                <Lead />
-
-                
               <div className="md:w-1/2 w-full">
                 <Image src={heroImage} width={1090} height={1000} alt="" className="object-contain"/>
               </div>
