@@ -27,20 +27,25 @@ export default function ContactForm() {
                         <div className="ml-form-embedContent" style={{marginBottom:0}}></div>
                         <form className="ml-block-form" action="https://static.mailerlite.com/webforms/submit/u5v1y5" data-code="u5v1y5" method="post" target="_blank">
                         <div className="ml-form-formContent">
+                            <div class="ml-form-fieldRow">
+                                <div class="ml-field-group ml-field-name ml-validate-required">
+                                    <input aria-label="name" aria-required="true" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="Jina" autocomplete="name" />
+                                </div>
+                            </div>
                             <div className="ml-form-fieldRow">
-                            <div className="ml-field-group ml-field-name">
-                                <input aria-label="name" type="text" className="form-control" data-inputmask="" name="fields[name]" placeholder="Jina" autoComplete="name" />
+                                <div className="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                                    <input aria-label="email" aria-required="true" type="email" className="form-control" data-inputmask="" name="fields[email]" placeholder="Barua pepe" autoComplete="email" />
+                                </div>
                             </div>
-                            </div>
-                            <div className="ml-form-fieldRow">
-                            <div className="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                                <input aria-label="email" aria-required="true" type="email" className="form-control" data-inputmask="" name="fields[email]" placeholder="Barua pepe" autoComplete="email" />
-                            </div>
+                            <div class="ml-form-fieldRow">
+                                <div class="ml-field-group ml-field-phone ml-validate-required">
+                                    <input aria-label="phone" aria-required="true" type="text" class="form-control" data-inputmask="" name="fields[phone]" placeholder="Simu" autocomplete="" />
+                                </div>
                             </div>
                             <div className="ml-form-fieldRow ml-last-item">
-                            <div className="ml-field-group ml-field-company">
-                                <input aria-label="company" type="text" className="form-control" data-inputmask="" name="fields[company]" placeholder="Kampuni" autoComplete="" />
-                            </div>
+                                <div className="ml-field-group ml-field-company">
+                                    <input aria-label="company" type="text" className="form-control" data-inputmask="" name="fields[company]" placeholder="Kampuni" autoComplete="" />
+                                </div>
                             </div>
                         </div>
                         <input type="hidden" name="ml-submit" value="1" />
