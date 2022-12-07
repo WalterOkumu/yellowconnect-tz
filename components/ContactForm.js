@@ -2,7 +2,7 @@ export default function ContactForm() {
     return(
     <section id='sectionInfo' className="md:mt-20 mt-14 mx-auto md:w-2/4 px-5">
             <h3 className="text-center">
-                Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo
+                Jaza sehemu zilizo hapa chini, ili upate ofa maalum ya PUNGUZO LA 30%
             </h3>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>

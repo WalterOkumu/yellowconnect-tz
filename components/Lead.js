@@ -8,7 +8,7 @@ export default function Lead() {
             </h1>
 
             <h2 className='mb-3'> 
-                Jaza sehemu zilizo hapa chini ili kupata habari unayotaka bila malipo
+                Jaza sehemu zilizo hapa chini, ili upate ofa maalum ya PUNGUZO LA 30%
             </h2>
             {/*<div className="flex flex-col justify-center items-center gap-4 mt-8">
                 <div>
