@@ -26,7 +26,7 @@ export default function Footer() {
           <p className="text-2xl items-center mb-3">Simu</p>
           <div className='flex gap-2'>
             <FaPhoneAlt />
-            <p className="text-gray-300 self-start">Tel: <a href='tel:+254 020 7800 701'>+255 766 422 407</a></p>
+            <p className="text-gray-300 self-start">Tel: <a href='tel:+255766422407'>+255 766 422 407</a></p>
           </div>
         </div>
       </div>
